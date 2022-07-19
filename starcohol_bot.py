@@ -20,4 +20,5 @@ def message_reply(message):
         bot.send_message(message.chat.id, "https://vk.com/id113935641")
     if message.text == "Git":
         bot.send_message(message.chat.id, "https://github.com/Igoryha")
+
 bot.polling()
